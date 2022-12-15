@@ -12,6 +12,7 @@ public class BoardVo {
 	
 	public BoardVo() {	}
 	
+	
 	public BoardVo(int num, String title, String writer, String content, Date regdate, int cnt) {
 		super();
 		this.num = num;

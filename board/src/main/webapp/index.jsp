@@ -6,8 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-<h1>main Index</h1>
+<body><h1>main Index</h1>
 <a href="list.jsp">게시판</a>
 </body>
 </html>

@@ -10,6 +10,7 @@
 <%
 	int num = Integer.parseInt(request.getParameter("num"));
 %>
+
 <form action="delete.jsp">
 <input type="hidden" name="num" value="<%=num%>">
 삭제 하시겠습니까?

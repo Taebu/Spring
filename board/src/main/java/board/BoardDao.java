@@ -23,7 +23,6 @@ public class BoardDao {
 		String query = "insert into \"BOARD\" (\"NUM\", \"TITLE\", \"WRITER\", \"CONTENT\", \"REGDATE\", \"CNT\")"
 				+ " values (\"BOARD_SEQ\".nextval, ?, ?, ?, sysdate, 0)";
 		int ret = -1;
-		
 		try {
 			con = ju.getConnection();
 			pstmt = con.prepareStatement(query);

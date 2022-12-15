@@ -12,5 +12,6 @@ request.setCharacterEncoding("utf-8");
   dao.update(vo);
   pageContext.setAttribute("vo",vo);
 %>
+
 <c:redirect url="/boardDetail.jsp?num=${vo.num}"></c:redirect>
 

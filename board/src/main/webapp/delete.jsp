@@ -8,4 +8,5 @@
 	int num = Integer.parseInt(request.getParameter("num"));
 	dao.delete(num);
 %>
+
 <c:redirect url="/list.jsp"></c:redirect>

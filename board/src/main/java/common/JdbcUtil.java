@@ -12,6 +12,7 @@ public class JdbcUtil {
 	
 	private static DataSource ds;
 	
+	
 	static {
 		try {
 			Class.forName("oracle.jdbc.OracleDriver");

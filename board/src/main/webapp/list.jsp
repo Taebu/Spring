@@ -5,8 +5,7 @@
 BoardDao dao = new BoardDao();
 List<BoardVo> ls = dao.selectAll();
 pageContext.setAttribute("ls", ls);
-%>
-<!DOCTYPE html>
+%><!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">

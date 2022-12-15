@@ -12,7 +12,6 @@
 <input type="text" name="writer" placeholder="작성자" required><br>
 <textarea rows="4" cols="20" name="content"></textarea><br>
 <input type="submit" value="등록">
-
 </form>
 </body>
 </html>
